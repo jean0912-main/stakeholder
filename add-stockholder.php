@@ -89,7 +89,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             <form method="POST" id="stockholderForm" class="form-grid">
                 <div class="form-group">
-                    <label for="name">Full Name *</label>
+                    <label for="name">Full Nameasdads *</label>
                     <input type="text" id="name" name="name" value="<?php echo htmlspecialchars($_POST['name'] ?? ''); ?>" required placeholder="Enter stockholder name">
                 </div>
 
